@@ -4,6 +4,7 @@ import org.openqa.selenium.Platform;
 import org.openqa.selenium.remote.BrowserType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.annotations.Test;
 import org.openqa.selenium.WebDriver;
 
 import java.net.MalformedURLException;
@@ -11,6 +12,7 @@ import java.net.URL;
 
 public class ExecuteTestZaleniumOrange {
 	
+	@Test
 	public void runTest1() throws MalformedURLException, InterruptedException {
 		
 		System.out.println("Thread wich is running " +Thread.currentThread().getId());

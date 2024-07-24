@@ -7,9 +7,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.BrowserType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.annotations.Test;
 
 public class ExecuteTestZaleniumNopCommerce {
 	
+	@Test
 	public void runTest2() throws MalformedURLException, InterruptedException {
 		
 		System.out.println("Thread wich is running " +Thread.currentThread().getId());
